@@ -1,31 +1,32 @@
-# Robots.txt optimisé pour Le Thothelier
+# Robots.txt - Le Thothelier
 # Site: https://www.le-thothelier.com
-# Dernière mise à jour: 15 février 2026
+# Mise a jour: 25 fevrier 2026
 
-# Autoriser tous les robots d'indexation
+# Autoriser tous les robots
 User-agent: *
 Allow: /
 
-# Bloquer l'indexation des fichiers système et techniques
+# Bloquer fichiers systeme et techniques
 Disallow: /cgi-bin/
 Disallow: /*.php$
 Disallow: /*.inc$
 
-# Bloquer l'accès aux fichiers sensibles (si présents)
+# Bloquer acces aux fichiers sensibles
 Disallow: /admin/
 Disallow: /tmp/
 Disallow: /.git/
 
-# Optimisation pour les moteurs de recherche spécifiques
+# Googlebot
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
+# Bingbot
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 0
 
-# Bloquer les mauvais bots (spam, scraping)
+# Bloquer les mauvais bots
 User-agent: AhrefsBot
 Disallow: /
 
@@ -38,5 +39,5 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-# Sitemap (OBLIGATOIRE pour SEO)
+# Sitemap
 Sitemap: https://www.le-thothelier.com/sitemap.xml
