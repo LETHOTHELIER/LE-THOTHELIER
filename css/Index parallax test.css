@@ -1,0 +1,1515 @@
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, sans-serif;
+}
+
+p, li, span {
+  font-family: Roboto, sans-serif;
+}
+
+/* ========================================
+   SECTIONS PRINCIPALES
+   ======================================== */
+
+#Accueil {
+  background-attachment: scroll;
+  background-color: #000000;
+  background-image: none;
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  color: #d9d9d9;
+  margin: 350px 0px 0px 0px;
+  max-width: 100%;
+  position: static;
+  scroll-padding: 250px;
+  width: 100%;
+  z-index: 1;
+}
+
+#APropos_rubrique {
+  background-attachment: scroll;
+  background-image: url("assets/te_de_fourche-OK.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: static;
+  width: 100%;
+}
+
+#Prestations_rubrique {
+  background-attachment: scroll;
+  background-image: url("assets/moteur ouvert cuivre.jpg");
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: cover;
+  flex-wrap: nowrap;
+  position: static;
+  width: 100%;
+}
+
+#TarifsRubrique {
+  background-attachment: scroll;
+  background-image: url("assets/moteur CBX 1000.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 400px;
+  width: 100%;
+}
+
+/* ========================================
+   HEADER FIXE
+   ======================================== */
+
+#AccueilAncre {
+  align-content: center;
+  background-color: #000000;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 350px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+}
+
+#ibgh0y {
+  align-content: center;
+  align-items: center;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-height: 25px;
+  position: fixed;
+  width: 100%;
+}
+
+#irlhn-4 {
+  align-content: center;
+  background-color: #000000;
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  height: 80px;
+  justify-content: center;
+  opacity: 1;
+  position: fixed;
+  text-align: center;
+  top: 25px;
+  width: 100%;
+  z-index: 9221;
+}
+
+#itftjt {
+  align-content: center;
+  align-items: flex-start;
+  color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 100px;
+  width: 350px;
+  z-index: 10000;
+}
+
+/* ========================================
+   ANCRES - DESKTOP (scroll-margin-top: 350px)
+   ======================================== */
+
+#AProposAncre {
+  min-height: 100px;
+  scroll-margin-top: 350px;
+}
+
+#AtelierAncre {
+  background-color: rgba(0,0,0,0.6);
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  height: 100px;
+  min-height: 100px;
+  text-align: center;
+  width: 100%;
+  scroll-margin-top: 350px;
+}
+
+#TarifsAncre {
+  background-color: rgba(0,0,0,0.9);
+  min-height: 100px;
+  scroll-margin-top: 350px;
+}
+
+/* ========================================
+   MENU NAVIGATION
+   ======================================== */
+
+#iqcihh,
+#iqcihh-2,
+#iqcihh-2-2,
+#iqcihh-2-2-2-2,
+#iqcihh-2-2-2-2-2,
+#iqcihh-2-2-2-2-2-2 {
+  align-content: center;
+  color: #d9d9d9;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  height: 23px;
+  justify-content: center;
+  line-height: 22px;
+  text-align: center;
+}
+
+#iqcihh { width: 116px; }
+#iqcihh-2 { width: 120px; }
+#iqcihh-2-2 { width: 120px; }
+#iqcihh-2-2-2-2 { width: 120px; }
+#iqcihh-2-2-2-2-2 { width: 120px; }
+#iqcihh-2-2-2-2-2-2 { width: 116px; margin: 0; }
+
+/* ========================================
+   BOUTONS INTRO HEADER
+   ======================================== */
+
+#i7u332,
+#illjha {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #b86e44;
+  font-family: "Allura", handwriting;
+  font-size: 55px;
+  font-weight: 100;
+  max-height: 245px;
+  outline: #000000;
+  position: relative;
+  top: 105px;
+  width: 33%;
+}
+
+#iyaou8 {
+  background-color: #000000;
+  border: 1px solid #000000;
+  height: 425px;
+  max-height: 245px;
+  position: relative;
+  top: 105px;
+  width: 350px;
+}
+
+/* ========================================
+   TITRES DE SECTIONS
+   ======================================== */
+
+#i43eo,
+#illao,
+#igko6l,
+#ibjg49-2 {
+  background-attachment: scroll;
+  background-color: rgba(185,119,71,0.25);
+  background-image: none;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px 0px 40px 0px;
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  height: 50px;
+  text-align: center;
+  text-shadow: unset;
+  width: 225px;
+}
+
+#illao { text-shadow: 3px 2px 4px black; }
+
+/* ========================================
+   BLOCS DE TEXTE
+   ======================================== */
+
+#ilg7b,
+#efzef,
+#i6ujc,
+#ig7814,
+#irb1fz,
+#icawqd,
+#i0c2br,
+#i1sbai,
+#izqvyb,
+#i12kq3,
+#ibd898 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  text-shadow: 3px 2px 4px black;
+}
+
+#ilg7b {
+  font-weight: 600;
+  text-align: justified;
+  width: 51%;
+}
+
+#efzef {
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 51%;
+  word-wrap: break-word;
+}
+
+#i6ujc {
+  align-content: center;
+  font-weight: 700;
+  text-align: justified;
+  width: 51%;
+}
+
+#ig7814 {
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  width: 51%;
+}
+
+#irb1fz {
+  font-weight: 600;
+  text-align: left;
+  width: 41%;
+}
+
+#icawqd,
+#i0c2br {
+  font-weight: 600;
+  text-align: left;
+  width: 51%;
+}
+
+#i1sbai {
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 3px 2px 4px black;
+  width: 51%;
+}
+
+#izqvyb {
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: justified;
+  width: 51%;
+}
+
+#i12kq3 {
+  font-weight: 900;
+  text-align: justified;
+  width: 51%;
+}
+
+#ibd898 {
+  align-content: center;
+  align-items: center;
+  font-weight: 900;
+  justify-content: center;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 53%;
+}
+
+/* ========================================
+   AUTRES &#65533;L&#65533;MENTS
+   ======================================== */
+
+#Index {
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+  justify-content: center;
+  max-height: 200px;
+  position: relative;
+  visibility: visible;
+  width: 100%;
+}
+
+#isvg9 {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  height: 70px;
+  line-height: 100%;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#iic6n1 {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 350%;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 100%;
+}
+
+#igrqoh-3 {
+  background-color: rgba(0,0,0,0.6);
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#izpck3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 100%;
+}
+
+#ifk6gu,
+#ip0muw {
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+}
+
+#ia2xdd,
+#ivqdlk,
+#ixtc0y,
+#iogxm2,
+#i0ko85,
+#i3utup,
+#i8cm0i,
+#itpbto {
+  display: flex;
+  justify-content: center;
+}
+
+#ifk6gu {
+  height: 50px;
+  min-height: 40px;
+}
+
+#ip0muw {
+  min-height: 116px;
+}
+
+#ia2xdd {
+  height: 50px;
+}
+
+#ivqdlk {
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 450px;
+}
+
+#ixtc0y,
+#iogxm2 {
+  align-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+#ixtc0y {
+  flex-wrap: wrap;
+}
+
+#iogxm2 {
+  flex-wrap: nowrap;
+}
+
+#i3ow5j {
+  align-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100px;
+}
+
+#i0ko85,
+#i3utup,
+#i8cm0i,
+#itpbto {
+  min-height: 100px;
+}
+
+#i5tnr7 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 33px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#ib6hxp,
+#iqo1ai {
+  color: #b97747;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#idnrm1 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 70%;
+}
+
+#ihuh61 {
+  border-radius: 140px 0px 140px 0px;
+  color: black;
+  width: 400px;
+}
+
+#iqdcsc,
+#idtek9-2 {
+  background-color: rgba(0,0,0,0.6);
+  height: 20px;
+  width: 100%;
+}
+
+#idtek9-2 {
+  background-color: #000000;
+}
+
+#idw7tk,
+#ix7aef {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 100%;
+}
+
+#iz9d0r {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#ijwi6h,
+#iyq5i4,
+#izk4sd,
+#irvyga,
+#i4fht4,
+#i8k0en,
+#ipun1g,
+#ii4b4j,
+#i2070f,
+#ibl20k {
+  background-color: rgba(0,0,0,0.6);
+}
+
+#ijwi6h,
+#i4fht4,
+#ii4b4j {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100px;
+}
+
+#iyq5i4 {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+}
+
+#i8k0en {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+#ipun1g,
+#ibl20k {
+  min-height: 100px;
+}
+
+#ipun1g {
+  width: 100%;
+}
+
+#i2ko6x,
+#irl3ti,
+#i4nhjq {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#irl3ti,
+#i4nhjq {
+  padding: 10px;
+  width: 100%;
+}
+
+#inyh4e {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#ifhcdx {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+#i5tsj1 {
+  background-color: rgba(0,0,0,0.6);
+  height: 100px;
+  min-height: 100px;
+  width: 100%;
+}
+
+#i5wuon,
+#ifx07k,
+#irrlkk {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 27px;
+}
+
+#i6o9bl {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  transform: rotateZ(0);
+  width: 100%;
+}
+
+/* Section Tarifs */
+#isyf1u-2 {
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+}
+
+#iu851r-2 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  height: 100px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 100%;
+}
+
+#ix67xd-2,
+#iic1ve-2,
+#im8fnd-2-2,
+#iic1ve-2-3 {
+  padding: 10px;
+}
+
+#ix67xd-2 { width: 10%; }
+#iic1ve-2 { width: 10%; }
+#im8fnd-2-2 { width: 10%; }
+#iic1ve-2-3 { width: 10%; }
+
+#ir1oig-2,
+#ipo40b-2,
+#iitysh-2,
+#ist9d2-2,
+#i1a2hk-2,
+#i821f4-2,
+#iovq02-2,
+#iggao9-2,
+#ikcajj-2,
+#i69f9f-2,
+#ij7c3f-2,
+#iloy44-2,
+#iwwpsw-2,
+#in6zck-2,
+#i6m6iv-2 {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+  text-shadow: 3px 2px 4px black;
+}
+
+#iw2gxn-2,
+#i6t9gh-2,
+#i9ne74-2,
+#if6x0f-2,
+#ivssvl-2,
+#itf366-2,
+#ickeej-2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+}
+
+#i8xkcz-2 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-shadow: 3px 2px 0px black;
+}
+
+#ihevu7-2,
+#ir7zn6-2 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+  text-shadow: 3px 2px 4px black;
+}
+
+#ihevu7-2 {
+  height: 1000px;
+  width: 80%;
+}
+
+#ir7zn6-2 {
+  height: 1000px;
+  width: 80%;
+}
+
+#i3imdk-2,
+#ior7fv-2 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
+  width: 50%;
+}
+
+#iqsh7q-2 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  height: 100px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+  width: 100%;
+}
+
+#i5ra12-2 {
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  min-height: 100px;
+}
+
+#iusez1-2-2 {
+  background-color: #000000;
+  border: 8px solid;
+  height: 20px;
+}
+
+#ims7ak {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 25px;
+  position: static;
+  width: 100%;
+}
+
+#itekp4 {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 2px 4px black;
+}
+
+/* ========================================
+   RESPONSIVE - TABLETTE (max-width: 992px)
+   ======================================== */
+
+@media (max-width: 992px) {
+  #itftjt { width: 220px; }
+  #isvg9 { height: 80px; width: 100%; }
+  #i6ujc { height: 450px; }
+  #ig7814 { height: 350px; }
+  #APropos_rubrique { height: 1350px; }
+  #AccueilAncre { background-color: #000000; }
+  #iyaou8 { width: 200px; }
+  #ihuh61 { width: 300px; }
+  #innxmf { width: 100%; }
+  #ior7fv-2 { height: 1600px; }
+  #i3imdk-2 { height: 1600px; }
+  #ir7zn6-2 { height: 1500px; width: 80%; }
+  #iic1ve-2 { height: 1500px; }
+  #ihevu7-2 { height: 1500px; width: 80%; }
+  #ix67xd-2 { height: 1500px; width: 10%; }
+  #im8fnd-2-2 { height: 1500px; }
+  #iic1ve-2-3 { height: 1500px; }
+}
+
+/* ========================================
+   RESPONSIVE - TABLETTE (max-width: 768px)
+   ANCRES: scroll-margin-top: 145px
+   ======================================== */
+
+@media (max-width: 768px) {
+  /* ANCRES - Correction pour header de 145px */
+  #AtelierAncre { scroll-margin-top: 145px; }
+  #AProposAncre { scroll-margin-top: 145px; }
+  #TarifsAncre { scroll-margin-top: 145px; }
+  
+  /* Header */
+  #AccueilAncre { 
+    background-color: #000000; 
+    height: 145px; 
+  }
+  
+  /* Textes */
+  #efzef { height: 350px; width: 80%; }
+  #ilg7b { height: 600px; width: 80%; }
+  #i6ujc { height: 400px; width: 80%; }
+  #ig7814 { height: 300px; width: 80%; }
+  #i1sbai { height: 350px; width: 80%; }
+  #izqvyb { width: 80%; }
+  #i12kq3 { width: 80%; }
+  #ibd898 { width: 80%; }
+  #idnrm1 { width: 80%; }
+  #irb1fz { width: 80%; }
+  #i0c2br { width: 80%; }
+  
+  /* Logo et boutons */
+  #itftjt { 
+    margin: -6px -20px -20px -20px; 
+    padding: 0; 
+    top: 63px; 
+    width: 146px; 
+  }
+  
+  #i7u332, #illjha { 
+    font-size: 30px; 
+    max-height: 80px; 
+    top: 65px; 
+    width: 200px; 
+  }
+  
+  #iyaou8 { 
+    max-height: 80px; 
+    top: 65px; 
+    width: 155px; 
+  }
+  
+  /* Sections */
+  #isvg9 { height: 150px; }
+  #APropos_rubrique { height: 3300px; top: 2230px; }
+  #Prestations_rubrique { height: 2000px; }
+  #icawqd { height: 300px; width: 80%; }
+  #i6o9bl { height: 250px; }
+  #ip0muw { height: 70px; min-height: 70px; }
+  #Accueil { height: 1870px; margin: 145px 0 0 0; position: static; }
+  #igrqoh-3 { height: 120px; }
+  #izpck3 { height: 100px; }
+  #i3ow5j { height: 1600px; }
+  #AProposAncre { height: 100px; }
+  #ia2xdd { height: 50px; }
+  #ivqdlk { height: 300px; }
+  #ixtc0y { height: 400px; }
+  #i5tnr7 { height: 200px; }
+  #ii4b4j { height: 550px; }
+  #irl3ti { height: 250px; }
+  #iic6n1 { height: 200px; }
+  #iogxm2 { height: 300px; }
+  #i8cm0i { height: 400px; }
+  #irlhn-4 { font-size: 20px; height: 40px; }
+  
+  /* Tarifs */
+  #ir7zn6-2 { height: 1700px; }
+  #ihevu7-2 { height: 1700px; }
+  #ix67xd-2 { height: 1700px; }
+  #im8fnd-2-2 { height: 1700px; }
+  #iic1ve-2 { height: 1700px; }
+  #iic1ve-2-3 { height: 1700px; }
+  
+  /* Polices */
+  #ik20ik,
+  #igkqpl,
+  #ii6wkl,
+  #i38sfb {
+    font-family: Montserrat, sans-serif;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE (max-width: 480px)
+   ANCRES: scroll-margin-top: 250px
+   ======================================== */
+
+@media (max-width: 480px) {
+  /* ANCRES - Correction pour header de 250px */
+  #AtelierAncre { scroll-margin-top: 250px; }
+  #AProposAncre { scroll-margin-top: 250px; }
+  #TarifsAncre { scroll-margin-top: 250px; }
+  
+  /* Header */
+  #AccueilAncre { 
+    background-color: #000000; 
+    flex-wrap: wrap; 
+    height: 250px; 
+    position: fixed; 
+  }
+  
+  #ibgh0y { 
+    align-content: center; 
+    align-items: center; 
+    align-self: center; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    min-height: 50px; 
+    position: static; 
+    z-index: 5912; 
+  }
+  
+  #irlhn-4 { 
+    height: 50px; 
+    position: static; 
+    top: 50px; 
+    z-index: 3291; 
+  }
+  
+  /* Logo */
+  #itftjt { 
+    top: 133px; 
+    width: 81px; 
+    z-index: 10000; 
+  }
+  
+  /* Menu */
+  #iqcihh,
+  #iqcihh-2,
+  #iqcihh-2-2,
+  #iqcihh-2-2-2-2,
+  #iqcihh-2-2-2-2-2-2,
+  #iqcihh-2-2-2-2-2 {
+    height: 25px;
+    width: 80px;
+  }
+  
+  /* Boutons intro */
+  #i7u332,
+  #illjha {
+    height: 150px;
+    max-height: 245px;
+    top: 0;
+    width: 33%;
+  }
+  
+  #iyaou8 { 
+    max-height: 150px; 
+    top: 0; 
+    width: 33%; 
+  }
+  
+  /* Sections principales */
+  #Accueil { 
+    height: 2100px; 
+    margin: 0; 
+    position: relative; 
+    top: 250px; 
+  }
+  
+  #APropos_rubrique { 
+    height: 3700px; 
+    position: relative; 
+    top: 240px; 
+  }
+  
+  #Prestations_rubrique { 
+    height: 2300px; 
+    position: relative; 
+    top: 240px; 
+  }
+  
+  #TarifsRubrique { 
+    height: 2550px; 
+    position: relative; 
+    top: 240px; 
+  }
+  
+  /* Textes */
+  #ilg7b { height: 830px; width: 100%; }
+  #efzef { height: 327px; width: 100%; }
+  #i6ujc { height: 450px; width: 95%; }
+  #ig7814 { height: 300px; width: 95%; }
+  #irb1fz { height: 300px; width: 95%; }
+  #icawqd { height: 370px; width: 95%; }
+  #i0c2br { width: 95%; }
+  #i1sbai { height: 350px; width: 94%; }
+  #izqvyb { height: 500px; width: 95%; }
+  #i12kq3 { height: 550px; width: 95%; }
+  #ibd898 { height: 800px; width: 95%; }
+  #idnrm1 { height: 200px; width: 95%; }
+  
+  /* Titres */
+  #illao,
+  #igko6l,
+  #i43eo {
+    height: 50px;
+  }
+  
+  /* Autres &#65533;l&#65533;ments */
+  #isvg9 { height: 120px; padding: 0; }
+  #i6o9bl { height: 250px; }
+  #AtelierAncre { height: 70px; min-height: 50px; }
+  #AProposAncre { height: 70px; min-height: 70px; }
+  #TarifsAncre { min-height: 70px; }
+  #ip0muw { position: static; }
+  #igrqoh-3 { height: 100px; padding: 0; position: static; }
+  #i3ow5j { height: 1871px; position: static; }
+  #izpck3 { height: 139px; }
+  #iic6n1 { height: 150px; line-height: 200%; }
+  #ifk6gu { height: 80px; position: static; }
+  #ihuh61 { width: 250px; }
+  #ivqdlk { height: 280px; }
+  #ixtc0y { height: 450px; }
+  #iogxm2 { height: 300px; }
+  #iao1xx { height: 200px; }
+  #i8cm0i { height: 500px; }
+  #ib6hxp { font-size: 37px; height: 50px; padding: 0; }
+  #iy6gwg { height: 50px; }
+  #itpbto { height: 550px; }
+  #i4c4lm { height: 100px; }
+  #iqo1ai { height: 100px; padding: 0; }
+  #i3utup { height: 800px; }
+  #i0ko85 { height: 200px; }
+  #iqdcsc { background-color: #000000; }
+  #i8k0en { min-height: 80px; }
+  #irl3ti { height: 120px; }
+  #ii4b4j { height: 710px; }
+  #ix7aef { font-size: 21px; height: 50px; }
+  #idw7tk { font-size: 32px; height: 50px; padding: 0; }
+  #iyq5i4 { min-height: 50px; }
+  #isyf1u-2 { min-height: 80px; }
+  #ia2xdd { height: 80px; }
+  #ims7ak { position: relative; top: 330px; }
+  
+  /* Tarifs */
+  #ihevu7-2 { height: 850px; width: 87%; }
+  #ir7zn6-2 { height: 1450px; width: 87%; }
+  #iqsh7q-2 { height: 120px; }
+  #iu851r-2 { height: 50px; }
+  #i5ra12-2 { flex-wrap: wrap; width: 100%; }
+  #i3imdk-2 { flex-wrap: wrap; height: 900px; width: 100%; }
+  #ior7fv-2 { flex-wrap: wrap; height: 1550px; width: 100%; }
+  #ix67xd-2 { height: 850px; width: 1%; }
+  #im8fnd-2-2 { height: 850px; width: 1%; }
+  #iic1ve-2 { height: 1450px; width: 1.5%; }
+  #iic1ve-2-3 { height: 1450px; width: 1%; }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE PAYSAGE (Landscape)
+   ======================================== */
+
+@media (max-width: 915px) and (orientation: landscape) {
+  /* Header ultra-compact en mode paysage */
+  #AccueilAncre {
+    height: 100px !important;
+  }
+  
+  /* Slogan compact */
+  #irlhn-4 {
+    font-size: 14px;
+    height: 20px;
+    top: 20px;
+  }
+  
+  /* Logo r&#65533;duit (sous le titre) */
+  #itftjt {
+    top: 45px;
+    width: 60px;
+    padding: 5px;
+  }
+  
+  /* Slogans sur une seule ligne */
+  #i7u332,
+  #illjha {
+    font-size: 16px;
+    max-height: 60px;
+    top: 40px;
+    height: 60px;
+    white-space: nowrap;
+  }
+  
+  #iyaou8 {
+    max-height: 60px;
+    top: 40px;
+    width: 150px;
+    height: 60px;
+  }
+  
+  /* Menu compact */
+  #ibgh0y {
+    min-height: 20px;
+  }
+  
+  #iqcihh,
+  #iqcihh-2,
+  #iqcihh-2-2,
+  #iqcihh-2-2-2-2,
+  #iqcihh-2-2-2-2-2-2,
+  #iqcihh-2-2-2-2-2 {
+    font-size: 11px;
+    height: 20px;
+    width: 70px;
+  }
+  
+  /* Ajustement des sections */
+  #Accueil {
+    margin: 0;
+    top: 100px;
+  }
+  
+  #APropos_rubrique,
+  #Prestations_rubrique,
+  #TarifsRubrique {
+    top: 100px;
+  }
+  
+  /* Ancres avec header r&#65533;duit */
+  #AtelierAncre,
+  #AProposAncre,
+  #TarifsAncre {
+    scroll-margin-top: 100px;
+  }
+}
+/* ========================================
+
+/* ========================================
+   PROFILS DESKTOP PAR HAUTEUR
+   Profil 1 (&#8805;1050px) = styles par défaut ci-dessus
+   ======================================== */
+
+/* PROFIL 2 : Entre 1024px et 1049px de hauteur */
+@media (min-height: 1024px) and (max-height: 1023px) and (min-width: 1024px) {
+  #AccueilAncre { height: 175px !important; }
+  #irlhn-4 { font-size: 18px !important; height: 40px !important; top: 23px !important; }
+  #itftjt { width: 175px !important; top: 50px !important; padding: 10px !important; }
+  #i7u332, #illjha { font-size: 27px !important; max-height: 122px !important; top: 52px !important; }
+  #iyaou8 { top: 52px !important; max-height: 122px !important; }
+  #Accueil { margin: 175px 0 0 0 !important; }
+  #AProposAncre, #AtelierAncre, #TarifsAncre { scroll-margin-top: 175px !important; }
+}
+
+/* PROFIL 3 : Entre 768px et 1023px de hauteur (desktop seulement) */
+@media (min-height: 768px) and (max-height: 1023px) and (min-width: 1024px) {
+  #AccueilAncre { height: 120px !important; }
+  #irlhn-4 { font-size: 14px !important; height: 28px !important; top: 20px !important; }
+  #itftjt { width: 120px !important; top: 35px !important; padding: 7px !important; }
+  #i7u332, #illjha { font-size: 20px !important; max-height: 85px !important; top: 35px !important; }
+  #iyaou8 { top: 35px !important; max-height: 85px !important; }
+  #Accueil { margin: 120px 0 0 0 !important; }
+  #AProposAncre, #AtelierAncre, #TarifsAncre { scroll-margin-top: 120px !important; }
+}
+/* ========================================
+   FOOTER STYLES - À ajouter à la fin de chaque CSS
+   ======================================== */
+
+/* FOOTER PRINCIPAL */
+#main-footer {
+  background-color: #000000;
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+/* BANDEAU SUPÉRIEUR - 3 colonnes */
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 80px;
+  background-color: rgba(0,0,0,0.95);
+  border-top: 3px solid #b86e44;
+}
+
+/* COLONNES */
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* COLONNE GAUCHE - Logo */
+#footer-left {
+  max-width: 350px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+  filter: brightness(1.1);
+}
+
+.footer-brand {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #b86e44;
+  margin: 0 0 15px 0;
+  text-shadow: 3px 2px 4px black;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d9d9d9;
+  text-shadow: 2px 1px 3px black;
+}
+
+/* COLONNE CENTRE - Navigation */
+#footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #b86e44;
+  margin: 0 0 20px 0;
+  text-shadow: 3px 2px 4px black;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-link {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.2s ease;
+  text-shadow: 2px 1px 3px black;
+}
+
+.footer-link:hover {
+  color: #b86e44;
+  transform: translateX(5px);
+}
+
+/* COLONNE DROITE - Contact */
+#footer-right {
+  max-width: 350px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  text-shadow: 2px 1px 3px black;
+}
+
+.contact-icon {
+  font-size: 18px;
+  min-width: 25px;
+}
+
+/* RÉSEAUX SOCIAUX */
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+/* BANDEAU INFÉRIEUR - Copyright */
+#footer-bottom {
+  background-color: #000000;
+  border-top: 2px solid #b86e44;
+  padding: 25px 80px;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #d9d9d9;
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 2px 1px 3px black;
+}
+
+.footer-legal-link {
+  font-size: 14px;
+  color: #b86e44;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  text-shadow: 2px 1px 3px black;
+}
+
+.footer-legal-link:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+
+/* ========================================
+   RESPONSIVE - TABLETTE (max-width: 992px)
+   ======================================== */
+@media (max-width: 992px) {
+  #footer-top {
+    flex-direction: column;
+    padding: 40px 40px;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  #footer-center {
+    align-items: center;
+  }
+  
+  .footer-nav {
+    align-items: center;
+  }
+  
+  .footer-contact-item {
+    justify-content: center;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  #footer-bottom {
+    padding: 20px 40px;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE (max-width: 480px)
+   ======================================== */
+@media (max-width: 480px) {
+  #footer-top {
+    padding: 30px 20px;
+    gap: 30px;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    margin: 0 auto 10px auto;
+  }
+  
+  .footer-brand {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .footer-description {
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+  }
+  
+  .footer-link {
+    font-size: 14px;
+  }
+  
+  .footer-contact-item {
+    font-size: 13px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  #footer-bottom {
+    padding: 20px 15px;
+  }
+  
+  .footer-copyright,
+  .footer-legal-link {
+    font-size: 12px;
+  }
+}
+
+/* ========================================
+   EFFET PARALLAXE
+   ======================================== */
+
+/* Container de la section parallaxe */
+.parallax-section {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Image avec effet parallaxe */
+.parallax-image {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+/* Sections avec fond noir au lieu d'images */
+#Accueil,
+#APropos_rubrique,
+#Prestations_rubrique,
+#TarifsRubrique {
+  background-image: none !important;
+  background-color: #000000 !important;
+  background-attachment: scroll !important;
+}
+
+/* Forcer aussi sur les IDs spécifiques */
+div[id*="Accueil"],
+div[id*="Propos"],
+div[id*="Prestations"],
+div[id*="Tarifs"] {
+  background-image: none !important;
+}
+
+/* ========================================
+   RESPONSIVE - TABLETTE
+   ======================================== */
+@media (max-width: 992px) {
+  .parallax-section {
+    height: 200px;
+  }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+   ======================================== */
+@media (max-width: 768px) {
+  .parallax-section {
+    height: 150px;
+  }
+  
+  /* Désactiver parallaxe sur mobile pour performance */
+  .parallax-image {
+    background-attachment: scroll;
+    height: 100%;
+  }
+}

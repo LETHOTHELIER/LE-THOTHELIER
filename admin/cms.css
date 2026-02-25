@@ -1,0 +1,137 @@
+/* CMS Le THOTHELIER */
+* { margin:0; padding:0; }
+body { background:#111; color:#d9d9d9; font-family:'Montserrat',sans-serif; font-size:14px; min-height:100%; }
+
+/* HEADER */
+.cms-header { background:rgba(0,0,0,0.97); border-bottom:2px solid #b86e44; padding:10px 24px; display:table; width:100%; }
+.brand { display:table-cell; vertical-align:middle; }
+.brand img { height:34px; vertical-align:middle; margin-right:10px; }
+.brand-name { font-family:'Oswald',sans-serif; color:#b86e44; font-size:16px; letter-spacing:3px; text-transform:uppercase; vertical-align:middle; }
+.brand-sub { display:block; color:#666; font-size:10px; letter-spacing:2px; text-transform:uppercase; padding-left:44px; }
+.cms-nav { display:table-cell; vertical-align:middle; text-align:right; }
+.cms-nav a { color:#d9d9d9; text-decoration:none; padding:7px 12px; font-size:11px; font-weight:700; letter-spacing:1px; text-transform:uppercase; border:1px solid transparent; margin-left:4px; display:inline-block; }
+.cms-nav a:hover, .cms-nav a.active { background:rgba(184,110,68,0.18); color:#b86e44; border-color:#b86e44; }
+.cms-nav a.logout { color:#f09090; border-color:#c03c3c; }
+.cms-nav a.logout:hover { background:rgba(192,60,60,0.15); }
+
+/* BODY */
+.cms-body { padding:28px 24px; max-width:1050px; margin:0 auto; }
+
+/* TITRES */
+.section-title { font-family:'Oswald',sans-serif; color:#b86e44; font-size:20px; letter-spacing:3px; text-transform:uppercase; margin-bottom:6px; }
+.section-line { height:1px; background:#b86e44; margin-bottom:24px; opacity:0.4; }
+
+/* CARDS */
+.card { background:rgba(10,10,10,0.92); border:1px solid #2a2a2a; padding:22px; margin-bottom:22px; }
+.card-title { font-size:12px; font-weight:700; color:#b86e44; letter-spacing:2px; text-transform:uppercase; margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid #2a2a2a; }
+
+/* FORMULAIRES */
+.form-row { width:100%; overflow:hidden; margin-bottom:14px; }
+.form-half { float:left; width:48%; margin-right:4%; }
+.form-half:last-child { margin-right:0; }
+.form-full { width:100%; }
+label { display:block; font-size:11px; letter-spacing:1px; color:#888; margin-bottom:5px; text-transform:uppercase; }
+input[type=text], input[type=email], input[type=tel], input[type=url], input[type=password], textarea, select {
+  display:block; width:100%; padding:9px 13px;
+  background:#1a1a1a; border:1px solid #2a2a2a;
+  color:#d9d9d9; font-family:'Montserrat',sans-serif; font-size:13px;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus,
+input[type=url]:focus, input[type=password]:focus, textarea:focus { border-color:#b86e44; outline:none; }
+textarea { min-height:70px; }
+
+/* BOUTONS */
+.btn { display:inline-block; padding:9px 20px; border:none; font-family:'Montserrat',sans-serif; font-size:12px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; cursor:pointer; text-decoration:none; }
+.btn-primary { background:#b86e44; color:#000; }
+.btn-primary:hover { background:#d08050; }
+.btn-danger  { background:#803030; color:#fff; }
+.btn-danger:hover { background:#a03030; }
+.btn-ghost   { background:transparent; color:#d9d9d9; border:1px solid #2a2a2a; }
+.btn-ghost:hover { border-color:#b86e44; color:#b86e44; }
+.btn-sm { padding:5px 12px; font-size:11px; }
+.btn-right { float:right; }
+.clearfix:after { content:''; display:table; clear:both; }
+
+/* ALERTS */
+.alert { padding:11px 15px; font-size:13px; margin-bottom:18px; }
+.alert-success { background:rgba(58,154,92,0.15); border:1px solid #3a9a5c; color:#7be0a8; }
+.alert-error   { background:rgba(192,60,60,0.15); border:1px solid #c03c3c; color:#f09090; }
+
+/* TABLES */
+.table-tarifs { width:100%; border-collapse:collapse; }
+.table-tarifs th { text-align:left; padding:7px 10px; font-size:11px; letter-spacing:1px; color:#b86e44; text-transform:uppercase; border-bottom:1px solid #2a2a2a; }
+.table-tarifs td { padding:9px 10px; border-bottom:1px solid rgba(255,255,255,0.04); vertical-align:middle; }
+.table-tarifs tr:hover td { background:rgba(255,255,255,0.02); }
+.table-tarifs input[type=text] { padding:5px 9px; font-size:12px; }
+.table-tarifs td:first-child input[type=text] { min-height:52px; font-size:12px; padding:6px 9px; }
+
+/* GALERIE */
+.gal-tabs { margin-bottom:18px; overflow:hidden; }
+.gal-tab { display:inline-block; padding:7px 16px; margin-right:6px; margin-bottom:6px; border:1px solid #2a2a2a; background:transparent; color:#d9d9d9; font-family:'Montserrat',sans-serif; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1px; cursor:pointer; text-decoration:none; }
+.gal-tab:hover, .gal-tab.active { background:rgba(184,110,68,0.18); border-color:#b86e44; color:#b86e44; }
+
+.photo-grid { overflow:hidden; margin-top:14px; }
+.photo-item { float:left; width:150px; margin:0 8px 12px 0; position:relative; background:#1a1a1a; border:1px solid #2a2a2a; overflow:visible; }
+.photo-item img { width:150px; height:110px; object-fit:cover; display:block; }
+.photo-del { position:absolute; top:3px; right:3px; background:rgba(192,60,60,0.88); color:#fff; border:none; width:22px; height:22px; cursor:pointer; font-size:13px; font-weight:700; line-height:22px; text-align:center; }
+.photo-del:hover { background:#c03c3c; }
+
+.upload-zone { border:2px dashed #2a2a2a; padding:24px; text-align:center; color:#666; font-size:13px; cursor:pointer; margin-top:14px; }
+.upload-zone:hover { border-color:#b86e44; color:#b86e44; }
+
+/* RESEAUX SOCIAUX */
+.social-row { overflow:hidden; padding:9px 0; border-bottom:1px solid rgba(255,255,255,0.05); }
+.social-row img { float:left; width:30px; height:30px; margin-right:10px; }
+.social-name { float:left; width:100px; line-height:30px; font-weight:700; color:#b86e44; font-size:12px; }
+.social-url { float:left; width:calc(100% - 280px); margin-right:10px; }
+.social-actions { float:right; }
+
+/* DASHBOARD */
+.dash-grid { overflow:hidden; margin-bottom:28px; }
+.dash-card { float:left; width:220px; margin:0 16px 16px 0; padding:18px 20px; background:rgba(10,10,10,0.92); border:1px solid #2a2a2a; text-decoration:none; color:#d9d9d9; display:block; }
+.dash-card:hover { border-color:#b86e44; }
+.dash-card .icon { font-size:26px; margin-bottom:8px; }
+.dash-card h3 { font-family:'Oswald',sans-serif; color:#b86e44; font-size:15px; letter-spacing:2px; text-transform:uppercase; margin-bottom:4px; }
+.dash-card p { color:#666; font-size:12px; }
+
+/* INFO */
+.info-box { background:rgba(10,10,10,0.92); border:1px solid #2a2a2a; padding:18px 20px; }
+.info-box p { color:#666; font-size:13px; line-height:1.7; }
+.info-box code { color:#b86e44; }
+
+/* Photo check badge */
+.photo-check {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 22px;
+    height: 22px;
+    background: #b86e44;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* Input nom photo sous vignette */
+.photo-alt-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding: 4px 6px;
+    background: #111;
+    border: 1px solid #2a2a2a;
+    color: #d9d9d9;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 2px;
+}
+.photo-alt-input:focus {
+    outline: none;
+    border-color: #b86e44;
+}
