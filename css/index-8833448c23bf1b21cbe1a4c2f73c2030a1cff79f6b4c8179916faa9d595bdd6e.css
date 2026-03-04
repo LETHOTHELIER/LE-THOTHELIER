@@ -863,7 +863,7 @@ p, li, span {
   /* Sections */
   #isvg9 { height: 150px; }
   #APropos_rubrique { height: 3300px; top: 2230px; }
-  #Prestations_rubrique { height: 2000px; }
+  #Prestations_rubrique { height: auto; }
   #icawqd { height: 300px; width: 80%; }
   #i6o9bl { height: 250px; }
   #ip0muw { height: 70px; min-height: 70px; }
@@ -985,15 +985,15 @@ p, li, span {
   }
   
   #Prestations_rubrique { 
-    height: 2300px; 
+    height: auto; 
     position: relative; 
-    top: 240px; 
+     
   }
   
   #TarifsRubrique { 
     height: 2550px; 
     position: relative; 
-    top: 240px; 
+     
   }
   
   /* Textes */
@@ -1133,7 +1133,7 @@ p, li, span {
   #APropos_rubrique,
   #Prestations_rubrique,
   #TarifsRubrique {
-    top: 100px;
+    
   }
   
   /* Ancres avec header r&#65533;duit */
@@ -1147,7 +1147,7 @@ p, li, span {
 
 /* ========================================
    PROFILS DESKTOP PAR HAUTEUR
-   Profil 1 (&#8805;1050px) = styles par défaut ci-dessus
+   Profil 1 (&#8805;1050px) = styles par dï¿½faut ci-dessus
    ======================================== */
 
 /* PROFIL 2 : Entre 1024px et 1049px de hauteur */
@@ -1172,7 +1172,7 @@ p, li, span {
   #AProposAncre, #AtelierAncre, #TarifsAncre { scroll-margin-top: 120px !important; }
 }
 /* ========================================
-   FOOTER STYLES - À ajouter à la fin de chaque CSS
+   FOOTER STYLES - ï¿½ ajouter ï¿½ la fin de chaque CSS
    ======================================== */
 
 /* FOOTER PRINCIPAL */
@@ -1185,7 +1185,7 @@ p, li, span {
   z-index: 10;
 }
 
-/* BANDEAU SUPÉRIEUR - 3 colonnes */
+/* BANDEAU SUPï¿½RIEUR - 3 colonnes */
 #footer-top {
   display: flex;
   justify-content: space-between;
@@ -1290,7 +1290,7 @@ p, li, span {
   min-width: 25px;
 }
 
-/* RÉSEAUX SOCIAUX */
+/* Rï¿½SEAUX SOCIAUX */
 .footer-social {
   display: flex;
   gap: 15px;
@@ -1313,7 +1313,7 @@ p, li, span {
   border-radius: 8px;
 }
 
-/* BANDEAU INFÉRIEUR - Copyright */
+/* BANDEAU INFï¿½RIEUR - Copyright */
 #footer-bottom {
   background-color: #000000;
   border-top: 2px solid #b86e44;

@@ -1,19 +1,10 @@
 /* ========================================
    BASE STYLES
    ======================================== */
-* { 
-  box-sizing: border-box; 
-}
-body {
-  margin: 0;
-  background-color: #000000;
-}
-h1, h2, h3 {
-  font-family: Montserrat, sans-serif;
-}
-p, li, span {
-  font-family: Roboto, sans-serif;
-}
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #000000; }
+h1, h2, h3 { font-family: Montserrat, sans-serif; }
+p, li, span { font-family: Roboto, sans-serif; }
 /* ========================================
    MENU NAVIGATION
    ======================================== */
@@ -121,7 +112,7 @@ p, li, span {
   width: 350px;
 }
 /* ========================================
-   SECTION MENTIONS LÉGALES
+   SECTION MENTIONS LÃ‰GALES
    ======================================== */
 #Accueil-2-2-2 {
   background-attachment: scroll;
@@ -187,15 +178,8 @@ p, li, span {
   text-align: center;
   text-shadow: 3px 2px 4px black;
 }
-#iuygte {
-  height: 200px;
-}
-#iw98jm,
-#if9dlk,
-#icgvs3 {
-  width: 80%;
-}
-/* Liste CGVS - style comme ilg7b */
+#iuygte { height: 200px; }
+#iw98jm, #if9dlk, #icgvs3 { width: 80%; }
 #icgvs4 {
   color: #d9d9d9;
   font-family: "Montserrat", sans-serif;
@@ -206,48 +190,18 @@ p, li, span {
   text-shadow: 3px 2px 4px black;
   width: 51%;
 }
-/* Lien email CGVS */
-#icgvs5 {
-  color: #b86e44 !important;
-  font-family: Verdana, Geneva, sans-serif;
-  text-decoration: none;
-}
-/* Lien PDF CGVS */
-#icgvs6 {
-  color: #b86e44;
-  font-family: Verdana, Geneva, sans-serif;
-  font-weight: 900;
-  text-decoration: underline;
-}
+#icgvs5 { color: #b86e44 !important; font-family: Verdana, Geneva, sans-serif; text-decoration: none; }
+#icgvs6 { color: #b86e44; font-family: Verdana, Geneva, sans-serif; font-weight: 900; text-decoration: underline; }
 /* ========================================
    SECTIONS DE CONTENU
    ======================================== */
-#i3zokk,
-#ijj30e {
-  min-height: 100px;
-}
-#ilrwio,
-#icsflf,
-#icgvs1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height: 100px;
-  position: static;
-}
-#icsflf {
-  align-content: center;
-  scroll-margin-top: 400px;
-}
+#i3zokk, #ijj30e { min-height: 100px; }
+#ilrwio, #icsflf, #icgvs1 { display: flex; flex-wrap: wrap; justify-content: center; min-height: 100px; position: static; }
+#icsflf { align-content: center; scroll-margin-top: 400px; }
 /* ========================================
    TITRES DE SECTIONS
    ======================================== */
-#i7jytt,
-#ic56wi,
-#i3vb72,
-#io1tko,
-#iue56b,
-#icgvs2 {
+#i7jytt, #ic56wi, #i3vb72, #io1tko, #iue56b, #icgvs2 {
   color: #b86e44;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 40px;
@@ -257,15 +211,11 @@ p, li, span {
   text-align: center;
   text-shadow: 3px 2px 4px black;
 }
-#i7jytt {
-  width: 100%;
-}
+#i7jytt { width: 100%; }
 /* ========================================
    LIENS
    ======================================== */
-#i52epo,
-#imanij,
-.decorated-link.cursor-pointer {
+#i52epo, #imanij, .decorated-link.cursor-pointer {
   color: #b86e44 !important;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
@@ -275,10 +225,7 @@ p, li, span {
   text-decoration: none;
   text-shadow: 3px 2px 4px black;
 }
-#i52epo {
-  height: 100px;
-  width: 80%;
-}
+#i52epo { height: 100px; width: 80%; }
 /* ========================================
    RESPONSIVE - TABLETTE (max-width: 992px)
    ======================================== */
@@ -287,7 +234,6 @@ p, li, span {
   #itftjt-4-2-2 { width: 220px; }
   #AccueilAncre-2-2-2 { background-color: #000000; }
   #ip0muw-2-2-2 { width: 100%; }
-  
   #Accueil-2-2-2 {
     align-content: center;
     align-items: stretch;
@@ -301,39 +247,11 @@ p, li, span {
    RESPONSIVE - TABLETTE (max-width: 768px)
    ======================================== */
 @media (max-width: 768px) {
-  /* Header */
-  #AccueilAncre-2-2-2 {
-    background-color: #000000;
-    height: 145px;
-  }
-  
-  #itftjt-4-2-2 {
-    padding: 0;
-    top: 65px;
-    width: 146px;
-  }
-  
-  #irlhn-4-2-2-2 {
-    font-size: 20px;
-    height: 40px;
-  }
-  
-  /* Boutons */
-  #i7u332-2-2-2,
-  #illjha-2-2-2 {
-    font-size: 30px;
-    height: 80px;
-    top: 65px;
-    width: 200px;
-  }
-  
-  #iyaou8-2-2-2 {
-    height: 80px;
-    top: 65px;
-    width: 146px;
-  }
-  
-  /* Contenu */
+  #AccueilAncre-2-2-2 { background-color: #000000; height: 145px; }
+  #itftjt-4-2-2 { padding: 0; top: 65px; width: 146px; }
+  #irlhn-4-2-2-2 { font-size: 20px; height: 40px; }
+  #i7u332-2-2-2, #illjha-2-2-2 { font-size: 30px; height: 80px; top: 65px; width: 200px; }
+  #iyaou8-2-2-2 { height: 80px; top: 65px; width: 146px; }
   #ip0muw-2-2-2 { min-height: 70px; }
   #Accueil-2-2-2 { margin: 145px 0 0 0; }
 }
@@ -341,135 +259,39 @@ p, li, span {
    RESPONSIVE - MOBILE (max-width: 480px)
    ======================================== */
 @media (max-width: 480px) {
-  /* Header */
-  #AccueilAncre-2-2-2 {
-    background-color: #000000;
-    flex-wrap: wrap;
-    height: 250px;
-  }
-  
-  #ibgh0y-4-2-2 {
-    align-self: center;
-    flex-wrap: wrap;
-    max-height: 50px;
-    min-height: 50px;
-    position: static;
-  }
-  
-  #irlhn-4-2-2-2 {
-    height: 50px;
-    margin: 0;
-    position: static;
-    top: 25px;
-  }
-  
-  #itftjt-4-2-2 {
-    max-width: 70%;
-    position: fixed;
-    top: 133px;
-    width: 81px;
-    z-index: 10000;
-  }
-  
-  /* Menu */
-  #iqcihh-5-2-2,
-  #iqcihh-2-5-2-2,
-  #iqcihh-2-2-2-2-5-2-2,
-  #iqcihh-2-2-2-2-2-2-4-2-2 {
-    height: 25px;
-    width: 80px;
-  }
-  
-  /* Boutons */
-  #i7u332-2-2-2,
-  #iyaou8-2-2-2,
-  #illjha-2-2-2 {
-    height: 150px;
-    top: 0;
-    width: 33%;
-  }
-  
-  /* Titre */
-  #i43eo-2-2-2 {
-    font-size: 31px;
-    height: 44px;
-  }
-  
-  /* Contenu */
+  #AccueilAncre-2-2-2 { background-color: #000000; flex-wrap: wrap; height: 250px; }
+  #ibgh0y-4-2-2 { align-self: center; flex-wrap: wrap; max-height: 50px; min-height: 50px; position: static; }
+  #irlhn-4-2-2-2 { height: 50px; margin: 0; position: static; top: 25px; }
+  #itftjt-4-2-2 { max-width: 70%; position: fixed; top: 133px; width: 81px; z-index: 10000; }
+  #iqcihh-5-2-2, #iqcihh-2-5-2-2, #iqcihh-2-2-2-2-5-2-2, #iqcihh-2-2-2-2-2-2-4-2-2 { height: 25px; width: 80px; }
+  #i7u332-2-2-2, #iyaou8-2-2-2, #illjha-2-2-2 { height: 150px; top: 0; width: 33%; }
+  #i43eo-2-2-2 { font-size: 31px; height: 44px; }
+
+  /* FIX : margin au lieu de top pour Ã©viter l'espace flottant qui pousse le footer */
   #Accueil-2-2-2 {
-    height: 1060px;
-    margin: 0;
-    top: 250px;
+    height: auto;
+    min-height: 1060px;
+    margin: 250px 0 0 0;
+    top: 0;
+    position: relative;
   }
 }
 /* ========================================
    RESPONSIVE - MOBILE PAYSAGE (Landscape)
    ======================================== */
 @media (max-width: 915px) and (orientation: landscape) {
-  /* Header ultra-compact en mode paysage */
-  #AccueilAncre-2-2-2 {
-    height: 100px !important;
-  }
-  
-  /* Slogan compact */
-  #irlhn-4-2-2-2 {
-    font-size: 14px;
-    height: 20px;
-    top: 20px;
-  }
-  
-  /* Logo réduit (sous le titre) */
-  #itftjt-4-2-2 {
-    top: 45px;
-    width: 60px;
-    padding: 5px;
-  }
-  
-  /* Réduction des boutons décoratifs */
-  #i7u332-2-2-2,
-  #illjha-2-2-2 {
-    font-size: 16px;
-    max-height: 60px;
-    top: 40px;
-    height: 60px;
-    white-space: nowrap;
-  }
-  
-  #iyaou8-2-2-2 {
-    max-height: 60px;
-    top: 40px;
-    width: 150px;
-    height: 60px;
-  }
-  
-  /* Menu compact */
-  #ibgh0y-4-2-2 {
-    min-height: 20px;
-  }
-  
-  #iqcihh-5-2-2,
-  #iqcihh-2-5-2-2,
-  #iqcihh-2-2-2-3-2,
-  #iqcihh-2-2-2-2-5-2-2,
-  #iqcihh-2-2-2-2-2-2-4-2-2,
-  #iqcihh-2-2-2-2-2-5-2-2 {
-    font-size: 11px;
-    height: 20px;
-    width: 70px;
-  }
-  
-  /* Ajustement des sections */
-  #Accueil-2-2-2 {
-    margin: 0;
-    top: 100px;
-  }
+  #AccueilAncre-2-2-2 { height: 100px !important; }
+  #irlhn-4-2-2-2 { font-size: 14px; height: 20px; top: 20px; }
+  #itftjt-4-2-2 { top: 45px; width: 60px; padding: 5px; }
+  #i7u332-2-2-2, #illjha-2-2-2 { font-size: 16px; max-height: 60px; top: 40px; height: 60px; white-space: nowrap; }
+  #iyaou8-2-2-2 { max-height: 60px; top: 40px; width: 150px; height: 60px; }
+  #ibgh0y-4-2-2 { min-height: 20px; }
+  #iqcihh-5-2-2, #iqcihh-2-5-2-2, #iqcihh-2-2-2-3-2, #iqcihh-2-2-2-2-5-2-2, #iqcihh-2-2-2-2-2-2-4-2-2, #iqcihh-2-2-2-2-2-5-2-2 { font-size: 11px; height: 20px; width: 70px; }
+  #Accueil-2-2-2 { margin: 100px 0 0 0; top: 0; }
 }
-
 /* ========================================
    PROFILS DESKTOP PAR HAUTEUR
    ======================================== */
-
-/* PROFIL 2 : Entre 900px et 1023px */
 @media (min-height: 900px) and (max-height: 1023px) and (min-width: 1024px) {
   #AccueilAncre-2-2-2 { height: 175px !important; }
   #irlhn-4-2-2-2 { font-size: 18px !important; height: 40px !important; top: 23px !important; }
@@ -478,8 +300,6 @@ p, li, span {
   #iyaou8-2-2-2 { top: 52px !important; max-height: 122px !important; }
   #Accueil-2-2-2 { margin: 175px 0 0 0 !important; }
 }
-
-/* PROFIL 3 : Entre 768px et 899px */
 @media (min-height: 768px) and (max-height: 899px) and (min-width: 1024px) {
   #AccueilAncre-2-2-2 { height: 120px !important; }
   #irlhn-4-2-2-2 { font-size: 14px !important; height: 28px !important; top: 20px !important; }
@@ -489,297 +309,59 @@ p, li, span {
   #Accueil-2-2-2 { margin: 120px 0 0 0 !important; }
 }
 /* ========================================
-   FOOTER STYLES - À ajouter à la fin de chaque CSS
+   FOOTER STYLES
    ======================================== */
+#main-footer { background-color: #000000; color: #d9d9d9; font-family: "Montserrat", sans-serif; width: 100%; position: relative; z-index: 10; }
+#footer-top { display: flex; justify-content: space-between; gap: 40px; padding: 60px 80px; background-color: rgba(0,0,0,0.95); border-top: 3px solid #b86e44; }
+.footer-column { flex: 1; min-width: 250px; }
+#footer-left { max-width: 350px; }
+.footer-logo { width: 120px; margin-bottom: 15px; filter: brightness(1.1); }
+.footer-brand { font-family: Verdana, Geneva, sans-serif; font-size: 28px; font-weight: 900; color: #b86e44; margin: 0 0 15px 0; text-shadow: 3px 2px 4px black; }
+.footer-description { font-size: 14px; line-height: 1.6; color: #d9d9d9; text-shadow: 2px 1px 3px black; }
+#footer-center { display: flex; flex-direction: column; align-items: center; }
+.footer-title { font-family: Verdana, Geneva, sans-serif; font-size: 22px; font-weight: 900; color: #b86e44; margin: 0 0 20px 0; text-shadow: 3px 2px 4px black; }
+.footer-nav { display: flex; flex-direction: column; gap: 12px; }
+.footer-link { color: #d9d9d9; text-decoration: none; font-size: 15px; font-weight: 600; transition: color 0.3s ease, transform 0.2s ease; text-shadow: 2px 1px 3px black; }
+.footer-link:hover { color: #b86e44; transform: translateX(5px); }
+#footer-right { max-width: 350px; }
+.footer-contact { display: flex; flex-direction: column; gap: 15px; }
+.footer-contact-item { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; line-height: 1.5; margin: 0; text-shadow: 2px 1px 3px black; }
+.contact-icon { font-size: 18px; min-width: 25px; }
+.footer-social { display: flex; gap: 15px; margin-top: 20px; }
+.social-link { display: inline-block; transition: transform 0.3s ease, opacity 0.3s ease; }
+.social-link:hover { transform: scale(1.15); opacity: 0.8; }
+.social-icon { width: 40px; height: 40px; border-radius: 8px; }
+#footer-bottom { background-color: #000000; border-top: 2px solid #b86e44; padding: 25px 80px; }
+.footer-bottom-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+.footer-copyright { font-size: 14px; color: #d9d9d9; margin: 0; font-weight: 600; text-shadow: 2px 1px 3px black; }
+.footer-legal-link { font-size: 14px; color: #b86e44; text-decoration: none; font-weight: 600; transition: color 0.3s ease; text-shadow: 2px 1px 3px black; }
+.footer-legal-link:hover { color: #d9d9d9; text-decoration: underline; }
 
-/* FOOTER PRINCIPAL */
-#main-footer {
-  background-color: #000000;
-  color: #d9d9d9;
-  font-family: "Montserrat", sans-serif;
-  width: 100%;
-  position: relative;
-  z-index: 10;
-}
-
-/* BANDEAU SUPÉRIEUR - 3 colonnes */
-#footer-top {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 60px 80px;
-  background-color: rgba(0,0,0,0.95);
-  border-top: 3px solid #b86e44;
-}
-
-/* COLONNES */
-.footer-column {
-  flex: 1;
-  min-width: 250px;
-}
-
-/* COLONNE GAUCHE - Logo */
-#footer-left {
-  max-width: 350px;
-}
-
-.footer-logo {
-  width: 120px;
-  margin-bottom: 15px;
-  filter: brightness(1.1);
-}
-
-.footer-brand {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 28px;
-  font-weight: 900;
-  color: #b86e44;
-  margin: 0 0 15px 0;
-  text-shadow: 3px 2px 4px black;
-}
-
-.footer-description {
-  font-size: 14px;
-  line-height: 1.6;
-  color: #d9d9d9;
-  text-shadow: 2px 1px 3px black;
-}
-
-/* COLONNE CENTRE - Navigation */
-#footer-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-title {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 22px;
-  font-weight: 900;
-  color: #b86e44;
-  margin: 0 0 20px 0;
-  text-shadow: 3px 2px 4px black;
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.footer-link {
-  color: #d9d9d9;
-  text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  transition: color 0.3s ease, transform 0.2s ease;
-  text-shadow: 2px 1px 3px black;
-}
-
-.footer-link:hover {
-  color: #b86e44;
-  transform: translateX(5px);
-}
-
-/* COLONNE DROITE - Contact */
-#footer-right {
-  max-width: 350px;
-}
-
-.footer-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.footer-contact-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 0;
-  text-shadow: 2px 1px 3px black;
-}
-
-.contact-icon {
-  font-size: 18px;
-  min-width: 25px;
-}
-
-/* RÉSEAUX SOCIAUX */
-.footer-social {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.social-link {
-  display: inline-block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.social-link:hover {
-  transform: scale(1.15);
-  opacity: 0.8;
-}
-
-.social-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-}
-
-/* BANDEAU INFÉRIEUR - Copyright */
-#footer-bottom {
-  background-color: #000000;
-  border-top: 2px solid #b86e44;
-  padding: 25px 80px;
-}
-
-.footer-bottom-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.footer-copyright {
-  font-size: 14px;
-  color: #d9d9d9;
-  margin: 0;
-  font-weight: 600;
-  text-shadow: 2px 1px 3px black;
-}
-
-.footer-legal-link {
-  font-size: 14px;
-  color: #b86e44;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-  text-shadow: 2px 1px 3px black;
-}
-
-.footer-legal-link:hover {
-  color: #d9d9d9;
-  text-decoration: underline;
-}
-
-/* ========================================
-   RESPONSIVE - TABLETTE (max-width: 992px)
-   ======================================== */
 @media (max-width: 992px) {
-  #footer-top {
-    flex-direction: column;
-    padding: 40px 40px;
-    gap: 40px;
-  }
-  
-  .footer-column {
-    max-width: 100%;
-    text-align: center;
-  }
-  
-  #footer-center {
-    align-items: center;
-  }
-  
-  .footer-nav {
-    align-items: center;
-  }
-  
-  .footer-contact-item {
-    justify-content: center;
-  }
-  
-  .footer-social {
-    justify-content: center;
-  }
-  
-  #footer-bottom {
-    padding: 20px 40px;
-  }
-  
-  .footer-bottom-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
-  }
+  #footer-top { flex-direction: column; padding: 40px 40px; gap: 40px; }
+  .footer-column { max-width: 100%; text-align: center; }
+  #footer-center { align-items: center; }
+  .footer-nav { align-items: center; }
+  .footer-contact-item { justify-content: center; }
+  .footer-social { justify-content: center; }
+  #footer-bottom { padding: 20px 40px; }
+  .footer-bottom-content { flex-direction: column; text-align: center; gap: 15px; }
 }
-
-/* ========================================
-   RESPONSIVE - MOBILE (max-width: 480px)
-   ======================================== */
 @media (max-width: 480px) {
-  #footer-top {
-    padding: 30px 20px;
-    gap: 30px;
-  }
-  
-  .footer-logo {
-    width: 80px;
-    margin: 0 auto 10px auto;
-  }
-  
-  .footer-brand {
-    font-size: 22px;
-    text-align: center;
-  }
-  
-  .footer-description {
-    font-size: 13px;
-    text-align: center;
-  }
-  
-  .footer-title {
-    font-size: 18px;
-  }
-  
-  .footer-link {
-    font-size: 14px;
-  }
-  
-  .footer-contact-item {
-    font-size: 13px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .social-icon {
-    width: 35px;
-    height: 35px;
-  }
-  
-  #footer-bottom {
-    padding: 20px 15px;
-  }
-  
-  .footer-copyright,
-  .footer-legal-link {
-    font-size: 12px;
-  }
+  #footer-top { padding: 30px 20px; gap: 30px; }
+  .footer-logo { width: 80px; margin: 0 auto 10px auto; }
+  .footer-brand { font-size: 22px; text-align: center; }
+  .footer-description { font-size: 13px; text-align: center; }
+  .footer-title { font-size: 18px; }
+  .footer-link { font-size: 14px; }
+  .footer-contact-item { font-size: 13px; flex-direction: column; align-items: center; text-align: center; }
+  .social-icon { width: 35px; height: 35px; }
+  #footer-bottom { padding: 20px 15px; }
+  .footer-copyright, .footer-legal-link { font-size: 12px; }
 }
-
 /* ========================================
-   ANCRE POLITIQUE DE CONFIDENTIALITÉ
+   ANCRE POLITIQUE DE CONFIDENTIALITÃ‰
    ======================================== */
-#ic56wi {
-  scroll-margin-top: 400px;
-}
-
-/* Responsive - Tablette */
-@media (max-width: 768px) {
-  #ic56wi {
-    scroll-margin-top: 180px;
-  }
-}
-
-/* Responsive - Mobile */
-@media (max-width: 480px) {
-  #ic56wi {
-    scroll-margin-top: 280px;
-  }
-}
+#ic56wi { scroll-margin-top: 400px; }
+@media (max-width: 768px) { #ic56wi { scroll-margin-top: 180px; } }
+@media (max-width: 480px) { #ic56wi { scroll-margin-top: 280px; } }
