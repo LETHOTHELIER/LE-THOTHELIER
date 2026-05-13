@@ -733,14 +733,31 @@ p, li, span {
   padding: 10px;
   text-shadow: 3px 2px 4px black;
 }
+/* Garantie typographique tarifs */
+#ihevu7-2 *,
+#ir7zn6-2 * {
+  color: #d9d9d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  text-shadow: 3px 2px 4px black;
+}
+#ihevu7-2 span[id],
+#ir7zn6-2 span[id] {
+  color: #b86e44;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
 
 #ihevu7-2 {
-  height: 1000px;
+  min-height: 1000px;
+  height: auto;
   width: 80%;
 }
 
 #ir7zn6-2 {
-  height: 1000px;
+  min-height: 1000px;
+  height: auto;
   width: 80%;
 }
 
@@ -812,11 +829,15 @@ p, li, span {
   #iyaou8 { width: 200px; }
   #ihuh61 { width: 300px; }
   #innxmf { width: 100%; }
-  #ior7fv-2 { height: 1600px; }
-  #i3imdk-2 { height: 1600px; }
-  #ir7zn6-2 { height: 1500px; width: 80%; }
+  #ior7fv-2 { min-height: 1600px;
+  height: auto; }
+  #i3imdk-2 { min-height: 1600px;
+  height: auto; }
+  #ir7zn6-2 { min-height: 1500px;
+  height: auto; width: 80%; }
   #iic1ve-2 { height: 1500px; }
-  #ihevu7-2 { height: 1500px; width: 80%; }
+  #ihevu7-2 { min-height: 1500px;
+  height: auto; width: 80%; }
   #ix67xd-2 { height: 1500px; width: 10%; }
   #im8fnd-2-2 { height: 1500px; }
   #iic1ve-2-3 { height: 1500px; }
@@ -897,8 +918,10 @@ p, li, span {
   #irlhn-4 { font-size: 20px; height: 40px; }
   
   /* Tarifs */
-  #ir7zn6-2 { height: 1700px; }
-  #ihevu7-2 { height: 1700px; }
+  #ir7zn6-2 { min-height: 1700px;
+  height: auto; }
+  #ihevu7-2 { min-height: 1700px;
+  height: auto; }
   #ix67xd-2 { height: 1700px; }
   #im8fnd-2-2 { height: 1700px; }
   #iic1ve-2 { height: 1700px; }
@@ -1004,7 +1027,8 @@ p, li, span {
   }
   
   #TarifsRubrique {
-    height: 2550px;
+    min-height: 2550px;
+    height: auto;
     position: relative;
     top: 0;
   }
@@ -1072,17 +1096,20 @@ p, li, span {
   #ims7ak { position: relative; top: 330px; }
   
   /* Tarifs */
-  #ihevu7-2 { height: 850px; width: 87%; }
-  #ir7zn6-2 { height: 1450px; width: 87%; }
+  #ihevu7-2 { min-height: 850px;
+    height: auto; width: 87%; }
+  #ir7zn6-2 { min-height: 1450px;
+    height: auto; width: 87%; }
   #iqsh7q-2 { height: 120px; }
   #iu851r-2 { height: 50px; }
   #i5ra12-2 { flex-wrap: wrap; width: 100%; }
-  #i3imdk-2 { flex-wrap: wrap; height: 900px; width: 100%; }
-  #ior7fv-2 { flex-wrap: wrap; height: 1550px; width: 100%; }
-  #ix67xd-2 { height: 850px; width: 1%; }
-  #im8fnd-2-2 { height: 850px; width: 1%; }
-  #iic1ve-2 { height: 1450px; width: 1.5%; }
-  #iic1ve-2-3 { height: 1450px; width: 1%; }
+  #i3imdk-2 { flex-wrap: wrap; min-height: 900px; height: auto; width: 100%; }
+  #ior7fv-2 { flex-wrap: wrap; min-height: 1550px;
+    height: auto; width: 100%; }
+  #ix67xd-2 { min-height: 850px; height: auto; width: 1%; }
+  #im8fnd-2-2 { min-height: 850px; height: auto; width: 1%; }
+  #iic1ve-2 { min-height: 1450px; height: auto; width: 1.5%; }
+  #iic1ve-2-3 { min-height: 1450px; height: auto; width: 1%; }
 }
 
 /* ========================================
@@ -1634,7 +1661,7 @@ div[id*="Tarifs"] {
   <!-- HEADER FIXE -->
     <!-- BANNIERE PROMO -->
   <div id="promo-banner" style="position:sticky;top:0;width:100%;min-height:70px;background:#b86e44;color:#000;display:flex;align-items:center;justify-content:center;padding:14px 50px;font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;letter-spacing:1px;box-sizing:border-box;z-index:9999;" onclick="this.style.display='none';">
-    <span id="promo-text" style="text-align:center;">🎉 Nouvel atelier : Prise de RDV ouverte ! &nbsp;&nbsp;<em style="font-size:12px;font-weight:400;">(cliquer pour fermer)</em></span>
+    <span id="promo-text" style="text-align:center;">Le Thothelier sera fermé du 14 au 17 mai 2026. &nbsp;&nbsp;<em style="font-size:12px;font-weight:400;">(cliquer pour fermer)</em></span>
   </div>
   <div id="AccueilAncre">
     

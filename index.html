@@ -102,6 +102,17 @@
     #TarifsRubrique{background-image:url("/assets/moteur_CBX_1000-desktop.jpg") !important;background-size:cover !important;background-position:center center !important;}
     #i43eo,#illao,#igko6l,#ibjg49-2{background-image:url("/assets/CUIVRE3.jpg") !important;background-color:rgba(185,119,71,0.5) !important;background-repeat:no-repeat !important;background-size:cover !important;background-position:right bottom !important;}
     #AccueilAncre{top:0 !important;z-index:9500 !important;}
+    /* ===== FIX HAUTEURS TARIFS ===== */
+    #ihevu7-2{min-height:850px !important;height:auto !important;}
+    #ir7zn6-2{min-height:1450px !important;height:auto !important;}
+    #i3imdk-2{min-height:900px !important;height:auto !important;flex-wrap:wrap !important;}
+    #ior7fv-2{min-height:1550px !important;height:auto !important;flex-wrap:wrap !important;}
+    #TarifsRubrique{min-height:2550px !important;height:auto !important;}
+    #i5ra12-2{flex-wrap:wrap !important;height:auto !important;}
+    /* Garantie typographique tarifs */
+    #ihevu7-2,#ihevu7-2 *{font-family:"Montserrat",sans-serif !important;color:#d9d9d9 !important;font-weight:900 !important;text-shadow:3px 2px 4px black !important;}
+    #ir7zn6-2,#ir7zn6-2 *{font-family:"Montserrat",sans-serif !important;color:#d9d9d9 !important;font-weight:900 !important;text-shadow:3px 2px 4px black !important;}
+    #ihevu7-2 span[id],#ir7zn6-2 span[id]{color:#b86e44 !important;font-family:Verdana,Geneva,sans-serif !important;}
   </style>
 </head>
 
@@ -111,7 +122,7 @@
   
   <!-- HEADER FIXE -->
   <div id="promo-banner" style="position:sticky;top:0;width:100%;min-height:70px;background:#b86e44;color:#000;display:flex;align-items:center;justify-content:center;padding:14px 50px;font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;letter-spacing:1px;box-sizing:border-box;z-index:9999;">
-    <span style="text-align:center;">🎉 Nouvel atelier : Prise de RDV ouverte !</span>
+    <span style="text-align:center;">Le Thothelier sera fermé du 14 au 17 mai 2026.</span>
     <button onclick="this.parentElement.style.display='none';" style="position:absolute;right:15px;top:50%;transform:translateY(-50%);background:none;border:none;color:#000;font-size:20px;font-weight:900;cursor:pointer;line-height:1;">&#x2715;</button>
   </div>
   <div id="AccueilAncre">
@@ -467,7 +478,7 @@
     </div>
     
     <div id="iyq5i4">
-      <a href="/cdn-cgi/l/email-protection#98f4fdecf0f7ecf0fdf4f1fdead8fff5f9f1f4b6fbf7f5" id="ix7aef"><span class="__cf_email__" data-cfemail="f19d9485999e8599949d989483b1969c90989ddf929e9c">[email&#160;protected]</span></a>
+      <a href="#" id="ix7aef" data-email="lethothelier" data-domain="gmail.com">lethothelier&#64;gmail.com</a>
     </div>
     
     <!-- V&#65533;hicules concern&#65533;s -->
@@ -607,7 +618,7 @@
         </p>
         <p class="footer-contact-item">
           <span class="contact-icon">&#9993;&#65039;</span>
-          <a href="/cdn-cgi/l/email-protection#1a767f6e72756e727f76737f685a7d777b737634797577" class="footer-link"><span class="__cf_email__" data-cfemail="7f131a0b17100b171a13161a0d3f18121e1613511c1012">[email&#160;protected]</span></a>
+          <a href="#" class="footer-link" data-email="lethothelier" data-domain="gmail.com">lethothelier&#64;gmail.com</a>
         </p>
         
         <!-- R&eacute;seaux sociaux -->
@@ -636,5 +647,12 @@
     </div>
   </div>
 </footer>
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/RGPD_popup.js" charset="UTF-8"></script>
+<script src="/js/RGPD_popup.js" charset="UTF-8"></script>
+<script>
+  var links = document.querySelectorAll('[data-email][data-domain]');
+  for (var i = 0; i < links.length; i++) {
+    var e = links[i].getAttribute('data-email') + '@' + links[i].getAttribute('data-domain');
+    links[i].setAttribute('href','mailto:'+e);
+  }
+</script>
 <script>(function(){var qs=window.location.search;var m=qs.match(/[?&]anchor=([^&]+)/);if(!m)return;var id=m[1];var done=false;var tries=0;var timer=setInterval(f
