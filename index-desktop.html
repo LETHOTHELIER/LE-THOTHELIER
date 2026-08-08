@@ -1668,9 +1668,9 @@ div[id*="Tarifs"] {
     <!-- Menu navigation -->
     <div id="ibgh0y">
       <a href="/index.html" id="iqcihh">Accueil</a>
-      <a href="?anchor=AProposAncre" id="iqcihh-2">A Propos</a>
-      <a href="?anchor=AtelierAncre" id="iqcihh-2-2">Atelier</a>
-      <a href="?anchor=TarifsAncre" id="iqcihh-2-2-2-2">Tarifs</a>
+      <a href="#AProposAncre" id="iqcihh-2">A Propos</a>
+      <a href="#AtelierAncre" id="iqcihh-2-2">Atelier</a>
+      <a href="#TarifsAncre" id="iqcihh-2-2-2-2">Tarifs</a>
       <a href="/galerie.html" id="iqcihh-2-2-2-2-2-2">Galerie</a>
       <a href="/contact.html" id="iqcihh-2-2-2-2-2">Contact</a>
     </div>
@@ -1949,7 +1949,7 @@ div[id*="Tarifs"] {
     
     <div id="i2070f">
       <div id="i2ko6x">
-        Prestations Moto <a href="?anchor=TarifsAncre" id="irrlkk">(voir tarifs)</a> :
+        Prestations Moto <a href="#TarifsAncre" id="irrlkk">(voir tarifs)</a> :
       </div>
     </div>
     
@@ -1984,7 +1984,7 @@ div[id*="Tarifs"] {
       <div id="irl3ti">
         Acc&egrave;s &agrave; l&rsquo;atelier aux m&eacute;canos
         <br id="ia71jx"/>
-        dans l&rsquo;&acirc;me pour <a href="?anchor=TarifsAncre" id="ifx07k">(voir tarifs)</a> :
+        dans l&rsquo;&acirc;me pour <a href="#TarifsAncre" id="ifx07k">(voir tarifs)</a> :
       </div>
       <div id="icawqd">
         &bull; Venir faire ta m&eacute;canique toi-m&ecirc;me (avec ou sans aide de ma part)
@@ -2005,7 +2005,7 @@ div[id*="Tarifs"] {
     <!-- Services -->
     <div id="ijwi6h">
       <div id="i4nhjq">
-        Services <a href="?anchor=TarifsAncre" id="i5wuon">(voir tarifs)</a> :
+        Services <a href="#TarifsAncre" id="i5wuon">(voir tarifs)</a> :
       </div>
       <div id="i0c2br">
         &bull; Venir chercher ta moto
@@ -2173,9 +2173,9 @@ div[id*="Tarifs"] {
       <h4 class="footer-title">Navigation</h4>
       <nav class="footer-nav">
         <a href="/index.html" class="footer-link">Accueil</a>
-        <a href="/index.html?anchor=AProposAncre" class="footer-link">&Agrave; Propos</a>
-        <a href="/index.html?anchor=AtelierAncre" class="footer-link">Atelier</a>
-        <a href="/index.html?anchor=TarifsAncre" class="footer-link">Tarifs</a>
+        <a href="/index.html#AProposAncre" class="footer-link">&Agrave; Propos</a>
+        <a href="/index.html#AtelierAncre" class="footer-link">Atelier</a>
+        <a href="/index.html#TarifsAncre" class="footer-link">Tarifs</a>
         <a href="/galerie.html" class="footer-link">Galerie</a>
         <a href="/contact.html" class="footer-link">Contact</a>
       </nav>
@@ -2315,6 +2315,6 @@ div[id*="Tarifs"] {
 })();
 </script>
 
-<script>(function(){var qs=window.location.search;var m=qs.match(/[?&]anchor=([^&]+)/);if(!m)return;var id=m[1];var done=false;var tries=0;var timer=setInterval(function(){tries++;var t=document.getElementById(id);if(!t){if(tries>20)clearInterval(timer);return;}var acc=document.getElementById("AccueilAncre");var offset=acc?acc.offsetHeight:400;var top=t.getBoundingClientRect().top+window.pageYOffset-offset;if(top>0&&!done){done=true;clearInterval(timer);window.scrollTo(0,top);}if(tries>20)clearInterval(timer);},200);})();</script>
+<script>(function(){var h=window.location.hash;if(!h)return;var id=h.substring(1);var done=false;var tries=0;var timer=setInterval(function(){tries++;var t=document.getElementById(id);if(!t){if(tries>20)clearInterval(timer);return;}var acc=document.getElementById("AccueilAncre");var offset=acc?acc.offsetHeight:400;var top=t.getBoundingClientRect().top+window.pageYOffset-offset;if(top>0&&!done){done=true;clearInterval(timer);window.scrollTo(0,top);}if(tries>20)clearInterval(timer);},200);})();</script>
 </body>
 </html>
